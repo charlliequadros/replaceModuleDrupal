@@ -1,0 +1,7 @@
+replace_word.my_special_action_confirm_form:
+  path: '/admin/content/bulk-edit/{view_id}/{display_id}'
+  defaults:
+    _form: '\Drupal\replace_word\Form\MySpecialActionConfirmForm'
+    _title: 'Bulk Edit'
+  requirements:
+    _permission: 'use views bulk edit'

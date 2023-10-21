@@ -1,0 +1,15 @@
+<?php
+/*
+function replace_word_form_views_bulk_operations_confirm_action_alter(&$form, &$form_state) {
+  $args = $form_state->getBuildInfo()['args'];
+  $view = $args[0];
+  $display = $args[1];
+  $form['#title'] = t('Are you sure you want to stop watching the following items?');
+
+  $form['new_word'] = [
+    '#title' => t('Nova Palavra'),
+    '#type' => 'textfield',
+  ];
+}
+
+*/

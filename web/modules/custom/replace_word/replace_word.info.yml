@@ -1,0 +1,5 @@
+name: Replace Word
+description: Replace Word module
+type: module
+core_version_requirement: ^9 || ^10
+package: Custom
